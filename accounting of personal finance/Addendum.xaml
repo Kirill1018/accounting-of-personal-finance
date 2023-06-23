@@ -1,0 +1,18 @@
+﻿<Window x:Class="accounting_of_personal_finance.Addendum"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:accounting_of_personal_finance"
+        mc:Ignorable="d"
+        Title="добавление" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock>дата</TextBlock>
+        <TextBox Name="_date"></TextBox>
+        <TextBlock>изменение баланса</TextBlock>
+        <TextBox Name="bal_chang"></TextBox>
+        <TextBlock>причина</TextBlock>
+        <TextBox Name="reason"></TextBox>
+        <Button Name="addition" Click="addition_Click">addition</Button>
+    </StackPanel>
+</Window>
